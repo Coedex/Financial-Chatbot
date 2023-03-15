@@ -67,7 +67,7 @@
 		<h1 class="text-2xl font-bold w-full text-center">Rain</h1>
 		<p class="text-sm italic">A Financial Virtual Assistant powered by Reignet</p>
 	</div>
-	<div class="h-[500px] w-full bg-grey-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
+	<div class="h-[500px] w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
 			<ChatMessage type="assistant" message="Hello, I am Rain, your personal financial assistant. Ask me anything related to finance and economics!" />
 			{#each chatMessages as message}
